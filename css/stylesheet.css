@@ -212,6 +212,17 @@ a {
 .main-content i{
 }
 
+.main-content ol li {
+  margin: 10px 0 10px 0;
+}
+
+.main-content ol li span{
+  display: block;
+  font-size: 80%;
+  color: #606c71;
+}
+
+
 .nav ul {
   margin: 0;
   padding: 0;
@@ -243,6 +254,13 @@ a {
 .process-chart li:last-child{
       background: url(../images/process-end.png) 0px 0px no-repeat ;
       padding-bottom: 0;
+}
+
+.checklist li{
+  padding: 0 0 0 30px;
+  margin: 0;
+  list-style-type: none;
+  background: url(../images/checklist.png) 0px 10px no-repeat ;
 }
 
 @media screen and (min-width: 64em) {
