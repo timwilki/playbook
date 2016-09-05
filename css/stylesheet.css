@@ -209,6 +209,11 @@ a {
   background-color: #eff0f1;
   border: 0; }
 
+.warning {
+  padding: 10px 20px;
+  background: #fedad3;
+  color: #ec4727;
+}
 .main-content i{
 }
 
@@ -221,7 +226,6 @@ a {
   font-size: 80%;
   color: #606c71;
 }
-
 
 .nav ul {
   margin: 0;
